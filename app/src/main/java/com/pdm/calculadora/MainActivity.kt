@@ -4,10 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.pdm.calculadora.databinding.ActivityMainBinding
-import net.objecthunter.exp4j.Expression
 import net.objecthunter.exp4j.ExpressionBuilder
-import kotlin.text.toLong
-import kotlin.toString
 
 class MainActivity : AppCompatActivity() {
     private val amb: ActivityMainBinding by lazy {
